@@ -1,12 +1,9 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import images from '/images/image_top.webp'
+import React from 'react'
+import image_top_title from '/images/image_top_title.png'
+import image_top from '/images/image_top.webp'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className="parent-container">
@@ -16,8 +13,8 @@ function App() {
           <button>作品一覧</button>
         </div>
           <div>
-            <h1>NAGASAWA Gallery</h1>
-            <img src={images} />
+            <img className="top-title" src={image_top_title} /> 
+            <img src={image_top} />
           </div>
       </div>
     </>

@@ -50,6 +50,10 @@ button:hover {
   border-color: #646cff;
 }
 
+.profile-content >p{
+  text-align:left;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -62,3 +66,4 @@ button:hover {
     background-color: #f9f9f9;
   }
 }
+

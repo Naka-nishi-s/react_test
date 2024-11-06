@@ -12,19 +12,22 @@ function Top() {
   const goToProfile = () => {
     navigate('/profile');
   };
+  const goToCollection = () => {
+    navigate('/collection');
+  };
 
   return (
     <>
-      <div className="parent-container">
-        <div className="button-container">
+      <div className='parent-container'>
+        <div className='button-container'>
           <button onClick={goToTop}>TOP</button>
           <button onClick={goToProfile}>プロフィール</button>
-          <button>作品一覧</button>
+          <button onClick={goToCollection}>作品一覧</button>
         </div>
-          <div>
-            <img className="top-title" src={image_top_title} /> 
-            <img src={image_profile} />
-          </div>
+        <div className='top-content'>
+          <img className='top-title' src={image_top_title} /> 
+          <img src={image_profile} />
+        </div>
       </div>
     </>
   )

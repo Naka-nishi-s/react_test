@@ -1,13 +1,14 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 
-.parent-container {
+.parent-container{
   display: flex;
   justify-content: flex-start; /* 横並びで要素を左に寄せる */
+  width: 100%
 }
 
 .button-container {
@@ -32,9 +33,32 @@ button {
 
 .profile-title {
   width: 200px;
+  text-align:left;
 }
 
-.profile-image {
-  width: 200px;
-  display: flex;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
+
+.grid-item {
+  width: 90%;
+  height: 100%;
+  background-color: #15741a;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.grid-item >h3{
+  width: 100%;
+  text-align:left;
+  background-color: #49524a;
+}
+
+
+.grid-item:hover {
+  border-color: #646cff;
+}
+

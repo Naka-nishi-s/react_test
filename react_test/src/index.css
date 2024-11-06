@@ -52,7 +52,14 @@ button:hover {
 
 .profile-content >p{
   text-align:left;
+  width: 100%;
 }
+
+.top-content{
+  width: 100%;
+}
+
+
 
 @media (prefers-color-scheme: light) {
   :root {

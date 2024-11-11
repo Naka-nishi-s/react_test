@@ -57,9 +57,49 @@ button:hover {
 
 .top-content{
   width: 100%;
+  text-align: center;
 }
 
+.collection-content {
+  text-align:left;
+}
 
+.top-title {
+  width: 1000px;
+  height: 120px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.profile-title {
+  width: 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 90%;
+  height: 100%;
+  background-color: #15741a;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.grid-item >h3{
+  width: 100%;
+  text-align:left;
+  background-color: #49524a;
+}
+
+.grid-item:hover {
+  border-color: #646cff;
+  cursor: pointer;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

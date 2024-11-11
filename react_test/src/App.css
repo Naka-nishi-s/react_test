@@ -7,58 +7,20 @@
 
 .parent-container{
   display: flex;
-  justify-content: flex-start; /* 横並びで要素を左に寄せる */
+  justify-content: flex-start;
   width: 100%
 }
 
 .button-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* 必要に応じて左寄せ */
-  gap: 10px; /* ボタン間のスペースを設定 */
+  align-items: flex-start;
+  gap: 10px;
   padding: 120px 10px 5px 10px;
 }
 
 button {
-  width: 200px; /* ボタンの幅を設定、調整可能 */
-  height: 50px;
-}
-
-.top-title {
-  width: 1000px;
-  height: 120px;
-  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);  /* 縁にぼかしを追加 */
-  border-radius: 10px;  /* 角を丸める場合 */
-}
-
-.profile-title {
   width: 200px;
-  text-align:left;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.grid-item {
-  width: 90%;
-  height: 100%;
-  background-color: #15741a;
-  text-align: center;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.grid-item >h3{
-  width: 100%;
-  text-align:left;
-  background-color: #49524a;
-}
-
-
-.grid-item:hover {
-  border-color: #646cff;
+  height: 50px;
 }
 

@@ -31,7 +31,7 @@ function Collection() {
           <button onClick={goToProfile}>プロフィール</button>
           <button onClick={goToCollection}>作品一覧</button>
         </div>
-        <div className='top-content'>
+        <div className='collection-content'>
         <h1>作品一覧</h1>
 
         <div className="grid-container">
@@ -45,36 +45,34 @@ function Collection() {
             <p>川崎市中原区丸子分団様から相談を受け作成</p>
           </div>
           <div key='3' className="grid-item">
-            <h3>タイトル3</h3>
-            <p>これはテストようの文字列です</p>
+            <h3>Coming soon...</h3>
+            <p>Coming soon...</p>
           </div>
           <div key='4' className="grid-item">
-            <h3>タイトル4</h3>
-            <p>これはテストようの文字列です</p>
+            <h3>Coming soon...</h3>
+            <p>Coming soon...</p>
           </div>
           <div key='5' className="grid-item">
-            <h3>タイトル5</h3>
-            <p>これはテストようの文字列です</p>
+            <h3>Coming soon...</h3>
+            <p>Coming soon...</p>
           </div>
           <div key='6' className="grid-item">
-            <h3>タイトル6</h3>
-            <p>これはテストようの文字列です</p>
+            <h3>Coming soon...</h3>
+            <p>Coming soon...</p>
           </div>
           <div key='7' className="grid-item">
-            <h3>タイトル7</h3>
-            <p>これはテストようの文字列です</p>
+            <h3>Coming soon...</h3>
+            <p>Coming soon...</p>
           </div>
           <div key='8' className="grid-item">
-            <h3>タイトル8</h3>
-            <p>これはテストようの文字列です</p>
+            <h3>Coming soon...</h3>
+            <p>Coming soon...</p>
           </div>
           <div key='9' className="grid-item">
-            <h3>タイトル9</h3>
-            <p>これはテストようの文字列です</p>
+            <h3>Coming soon...</h3>
+            <p>Coming soon...</p>
           </div>
-          {/* <img src={`${process.env.PUBLIC_URL}/collection.image_fx_.jpg`} /> */}
         </div>
-
         </div>
       </div>
     </>

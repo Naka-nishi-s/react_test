@@ -24,9 +24,9 @@ function Top() {
           <button onClick={goToProfile}>プロフィール</button>
           <button onClick={goToCollection}>作品一覧</button>
         </div>
-        <div className='top-content'>
+        <div className='top-container'>
           <img className='top-title' src={image_top_title} /> 
-          <img src={image_profile} />
+          <img className='top-image' src={image_profile} />
         </div>
       </div>
     </>

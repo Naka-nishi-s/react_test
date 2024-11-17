@@ -1,8 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import image_top_title from '/images/image_top_title.png'
-import image_profile from '/images/image_top.webp'
+import image_top from '/images/image_top.png'
 import './App.css'
+import Footer from './Footer';
 
 function Top() {
   const navigate = useNavigate();
@@ -15,7 +16,6 @@ function Top() {
   const goToCollection = () => {
     navigate('/collection');
   };
-
   return (
     <>
       <div className='parent-container'>
@@ -26,11 +26,11 @@ function Top() {
         </div>
         <div className='top-container'>
           <img className='top-title' src={image_top_title} /> 
-          <img className='top-image' src={image_profile} />
+          <img className='top-image' src={image_top} />
         </div>
       </div>
+      <Footer />
     </>
   )
 }
-
 export default Top

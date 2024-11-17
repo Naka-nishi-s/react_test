@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import image_test from '/collection_file/fire_brigade.pdf'
 import './App.css'
+import Footer from './Footer';
 
 function Collection() {
     const navigate = useNavigate();
@@ -14,15 +15,12 @@ function Collection() {
     const goToCollection = () => {
       navigate('/collection');
     };
-
     const handleClick = () => {
         window.open('https://nagasawa993.github.io/VBAtest/');
     };
     const handleClick2 = () => {
         window.open(image_test);
     };
-
-
   return (
     <>
       <div className='parent-container'>
@@ -33,7 +31,6 @@ function Collection() {
         </div>
         <div className='collection-content'>
         <h1>作品一覧</h1>
-
         <div className="grid-container">
           <div onClick={handleClick} key='1' className="grid-item">
               <h3>VBA エキスパート資格問題</h3>
@@ -75,8 +72,8 @@ function Collection() {
         </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
-
 export default Collection

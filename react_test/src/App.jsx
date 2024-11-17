@@ -4,11 +4,7 @@ import Top from './top';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Top />} />
-      </Routes>
-    </Router>
+      <Route path="/" element={<Top />} />
   );
 }
 

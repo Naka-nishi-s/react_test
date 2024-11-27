@@ -27,6 +27,7 @@ function Profile() {
           <h1>プロフィール</h1>
           <img className='image_profile' src={image_profile} /> 
           <p>こんにちは。私は長澤良宗と申します。<br/>
+            <br/>
             現在Webアプリケーションのバックエンド開発やテストを中心にITエンジニアとして働いています。<br/>
             特にバックエンド開発ではFastAPI(Python)を活用したAPI開発と、<br/>
             それをAWS上にデプロイするモダンなUXの構築を得意としています。<br/>

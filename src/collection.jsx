@@ -33,13 +33,15 @@ function Collection() {
         <h1>作品一覧</h1>
         <div className="grid-container">
           <div onClick={handleClick} key='1' className="grid-item">
-              <h3>VBA エキスパート資格問題</h3>
-              <p>エクセルVBA エキスパート試験を受けた際に、
-                ネットでも勉強できるサイトがあれば便利と思ったので作成</p>
+            <h3>VBA エキスパート資格問題</h3>
+            <p>エクセルVBA エキスパート試験を受けた際に、
+            ネットでも勉強できるサイトがあれば便利と思ったので作成。<br/>
+            言語はhtml, css, javascript</p>
           </div>
           <div onClick={handleClick2} key='2' className="grid-item">
             <h3>消防団ポスター</h3>
-            <p>川崎市中原区丸子分団様から相談を受け作成</p>
+            <p>川崎市中原区丸子分団様から相談を受け作成。<br/>
+            Canvaというスマホアプリで作成</p>
           </div>
           <div key='3' className="grid-item">
             <h3>Coming soon...</h3>

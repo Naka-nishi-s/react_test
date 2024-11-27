@@ -83,6 +83,10 @@
   background-color: #F25424;
 }
 
+.grid-item >p{
+  text-align:left;
+}
+
 .grid-item:hover {
   border-color: #F25424;
   cursor: pointer;
